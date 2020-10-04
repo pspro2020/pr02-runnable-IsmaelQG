@@ -11,7 +11,7 @@ public class Potencia implements Runnable{
 	@Override
 	public void run() {
 		for(int i=0; i<=10; i++) {
-			System.out.printf("%.0f elevado a %d = %.0f\n", number, i, Math.pow(number, i));
+			System.out.printf("%s %.0f elevado a %d = %.0f\n",Thread.currentThread().getName(), number, i, Math.pow(number, i));
 		}
 	}
 
