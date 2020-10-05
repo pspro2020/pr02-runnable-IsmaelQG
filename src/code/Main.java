@@ -9,7 +9,7 @@ public class Main {
 			if((i%2) == 0) {
 				thread.setPriority(Thread.MAX_PRIORITY);
 			}
-			else if((i%2) == 0) {
+			else {
 				thread.setPriority(Thread.MIN_PRIORITY);
 			}
 			thread.start();
